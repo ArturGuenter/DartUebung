@@ -7,4 +7,6 @@ print(ergebnis);
 zahl2++;
 zahl1--;
 print(zahl2 );
+print("");
+print(zahl2==zahl1);
 }
