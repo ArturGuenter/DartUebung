@@ -6,4 +6,7 @@ void main(){
   print(x[0]);
   x.add("Kiwi");
   print(x.length);
+  print(x[4]);
+  x.removeAt(4);
+  print(x[4]);
 }
