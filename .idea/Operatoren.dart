@@ -18,4 +18,6 @@ bool d = false;
 print(c && d);
 print(c || d);
 
+print(2 + zahl1);
+
 }
