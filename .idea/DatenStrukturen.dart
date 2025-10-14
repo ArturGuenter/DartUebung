@@ -22,5 +22,7 @@ void main(){
 double apfelPreis = preise['Apfel'];
   print(preise['Apfel']);
 print(apfelPreis);
-
+preise['Apfel'] = '1.99';
+  print(preise['Apfel']);
+  print(preise);
 }
