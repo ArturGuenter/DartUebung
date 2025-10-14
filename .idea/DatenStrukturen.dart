@@ -12,4 +12,11 @@ void main(){
   print(x[4]);
   List z = x+y ;
   print(z);
+
+  //Maps
+  Map preise = {
+    'Apfel' : 0.99,
+    'Banane' : 0.49,
+    'Orange' : 0.79,
+  }
 }
