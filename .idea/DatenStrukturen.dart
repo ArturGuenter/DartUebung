@@ -18,5 +18,9 @@ void main(){
     'Apfel' : 0.99,
     'Banane' : 0.49,
     'Orange' : 0.79,
-  }
+  };
+double apfelPreis = preise['Apfel'];
+  print(preise['Apfel']);
+print(apfelPreis);
+
 }
