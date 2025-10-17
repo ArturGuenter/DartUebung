@@ -1,8 +1,10 @@
 void main(){
 
-String wetter = "Sonnig"
+String wetter = "Sonnig";
     if(wetter == "Sonnig") {
-      print("es ist sonnig")
+      print("es ist sonnig");
+    } else {
+      print("Mediathek");
     }
 
 }
