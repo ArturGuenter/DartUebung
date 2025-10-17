@@ -15,5 +15,5 @@ print(y);
 
 List <dynamic> h = ["a", 12,];
 print(h);
-
+int u = h[0];
 }
