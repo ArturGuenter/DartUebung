@@ -13,4 +13,7 @@ print(x);
 String y = x + " Tür";
 print(y);
 
+List <dynamic> h = ["a", 12,];
+print(h);
+
 }
