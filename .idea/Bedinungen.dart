@@ -2,7 +2,7 @@ void main(){
 
 String wetter = "Sonnig";
 
-int note = 70;
+int note = 90;
 
     if(wetter == "Sonnig") {
       print("es ist sonnig");
@@ -10,9 +10,9 @@ int note = 70;
       print("Mediathek");
     }
 
-    if(note >=90) {
+    if(note >=90 && note<=100) {
       print("sehr gut");
-    }else if(note >=80) {
+    }else if(note >=80 && note<=90) {
       print("gut");
     } else {
       print("mangelhaft");
