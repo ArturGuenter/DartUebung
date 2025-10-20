@@ -11,6 +11,10 @@ int note = 70;
     }
 
     if(note >=90) {
-      print("sehr gut")
+      print("sehr gut");
+    }else if(note >=80) {
+      print("gut");
+    } else {
+      print("mangelhaft");
     }
 }
