@@ -3,6 +3,8 @@ void main(){
 String wetter = "Sonnig";
 
 int note = 90;
+bool kaltesWetter = true ;
+bool guteVerkehrslage = false ;
 
     if(wetter == "Sonnig") {
       print("es ist sonnig");
@@ -17,4 +19,10 @@ int note = 90;
     } else {
       print("mangelhaft");
     }
+
+
+    if(guteVerkehrslage == false && kaltesWetter == true){
+      print("Auto");
+    }
+
 }
