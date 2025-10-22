@@ -1,5 +1,10 @@
+import 'dart:io';
 
 void main(){
+
+  String password = "geheim";
+  bool loggedIn = false ;
+  int tries = 3;
 
   List<dynamic> z = ["Tier", 2, 3.14, "Haus"];
 
