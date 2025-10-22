@@ -13,7 +13,11 @@ void main(){
     } else{
       print("kein Int Datentyp");
     }
+  }
 
-
+  int i = 3;
+  while (i>2)
+  {
+    print(i);
   }
 }
