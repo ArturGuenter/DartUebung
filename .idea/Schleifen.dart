@@ -8,9 +8,7 @@ void main(){
 
   List<dynamic> z = ["Tier", 2, 3.14, "Haus"];
 
-  //for(int i= 0; i<5 ; i++){
-  //  print(i);
-  //}
+
 
   for(var i in z ){
     if(i.runtimeType == int ){
@@ -21,8 +19,12 @@ void main(){
   }
 
   int i = 3;
-  while (i>2)
+  while ( tries > 2)
   {
-    print(i);
+    String? passwordEingabe = stdin.readLineSync();
+    if(passwordEingabe != password){
+      print("Falsches Passwort ")
+    }
+
   }
 }
