@@ -10,6 +10,8 @@ void main(){
   for(var i in z ){
     if(i.runtimeType == int ){
       print(i);
+    } else{
+      print("kein Int Datentyp");
     }
 
 
