@@ -19,11 +19,15 @@ void main(){
   }
 
   int i = 3;
-  while ( tries > 2)
+  while ( tries != 0)
   {
     String? passwordEingabe = stdin.readLineSync();
     if(passwordEingabe != password){
-      print("Falsches Passwort ")
+      print("Falsches Passwort ");
+      tries--;
+    }else{
+      print("Das passwort war richtig.");
+      break;
     }
 
   }
