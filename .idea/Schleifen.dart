@@ -27,6 +27,7 @@ void main(){
       tries--;
     }else{
       print("Das passwort war richtig.");
+      loggedIn == true;
       break;
     }
 
