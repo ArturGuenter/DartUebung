@@ -5,7 +5,8 @@ String kuchenBeschreibung= "";
 while(gebackeneKuchen< anzahlKuchen){
   gebackeneKuchen++;
 }
-
+  kuchenBeschreibung = "${anzahlKuchen} Kuchen mit ${zutat1} und ${zutat2}";
+return kuchenBeschreibung
 }
 
 void main(){
