@@ -1,8 +1,8 @@
-void printMessage(String message){
-  print(message);
+void printMessage(){
+  print("Hello");
 }
 
 void main(){
-printMessage("hallo");
+printMessage();
 
 }
