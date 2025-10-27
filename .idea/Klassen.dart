@@ -25,5 +25,5 @@ class Donut{
 void main(){
 
   Donut meinDonut = Donut(flavor: "Schoko", price: 2.59, size: "XL", imageName: "donut.jpg");
-
+  meinDonut.auswaehlen();
 }
