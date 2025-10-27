@@ -12,6 +12,13 @@ class Donut{
 }
       );
 
+  void printDetails(){
+    print("Vielen Dank! Deine Bestellung wird bearbeitet.");
+  }
+
+  void auswaehlen(){
+    print("Auswahl: Größe $size Geschmack: $flavor Preis: $price");
+  }
 
 }
 
